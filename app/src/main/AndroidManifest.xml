@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.majinor.esportal">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/espnewlogo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeBar"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <meta-data android:name="com.facebook.accountkit.ApplicationName"
+            android:value="@string/app_name" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/FACEBOOK_APP_ID" />
+        <meta-data android:name="com.facebook.accountkit.ClientToken"
+            android:value="@string/ACCOUNT_KIT_CLIENT_TOKEN" />
+
+        <activity
+            android:name="com.facebook.accountkit.ui.AccountKitActivity" />
+
+        <activity android:name=".NotifInviteDetailActivity"></activity>
+        <activity android:name=".EditAnggotaActivity" />
+        <activity android:name=".MyEventTeamCardActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:theme="@style/AppThemeNoBar" />
+        <activity
+            android:name=".MyEventTourRegistedJadwal2Activity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".MyEventTourHistoryDetailActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".MyEventTourHistoryActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".MyEventTourRegistedHasilActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".MyEventTourRegistedJadwalActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".MyEventGathFollowedDetailActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".GatheringDetailTentangActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".GatheringAddActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".GatheringDetailActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".GatheringActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".TournamentDetailTentangActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".MyEventTourRegistedDetailActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".MyEventWaitingDetailLunasActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".MyEventWaitingDetailActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".MyEventWaitingActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity android:name=".ParentBait" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".AccountSettingActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".TournamentRegisActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".TournamentDetailActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppThemeNoBar" />
+        <activity
+            android:name=".TournamentActivity"
+            android:parentActivityName=".ParentBait" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppThemeNoBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppThemeNoBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppThemeNoBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

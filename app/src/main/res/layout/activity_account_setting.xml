@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/r_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackdoff"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".AccountSettingActivity">
+
+
+    <EditText
+        android:id="@+id/et_as_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:drawableLeft="@drawable/baseline_person_white_18dp"
+        android:drawableTint="@color/gray"
+        android:hint="Nickname"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/gray"
+        android:visibility="gone" />
+
+
+    <EditText
+        android:id="@+id/et_as_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:drawableLeft="@drawable/baseline_person_white_18dp"
+        android:drawableTint="@color/gray"
+        android:hint="Nickname"
+        android:maxLength="18"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/et_as_nohp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:drawableLeft="@drawable/baseline_call_white_18dp"
+        android:drawableTint="@color/gray"
+        android:hint="Phone"
+        android:maxLength="12"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/gray" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Password Confirm"
+        android:textColor="@color/gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/gray" />
+
+    <EditText
+        android:id="@+id/et_as_passcek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:drawableLeft="@drawable/baseline_call_white_18dp"
+        android:drawableTint="@color/gray"
+        android:hint="Phone"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/gray"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/et_as_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:drawableLeft="@drawable/baseline_lock_white_s18dp"
+        android:drawableTint="@color/gray"
+        android:hint="Password"
+        android:maxLength="18"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/gray" />
+
+    <Button
+        android:id="@+id/btn_as_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Save" />
+
+</LinearLayout>

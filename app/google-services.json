@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1046081005289",
+    "firebase_url": "https://esportal-7358f.firebaseio.com",
+    "project_id": "esportal-7358f",
+    "storage_bucket": "esportal-7358f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046081005289:android:e0bad63fe9420cdb",
+        "android_client_info": {
+          "package_name": "com.majinor.esportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046081005289-g05kfc6ddq47d6796q2rhtimfk8rk223.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.majinor.esportal",
+            "certificate_hash": "8828d058e366b9570711859cca81170e0c42f70c"
+          }
+        },
+        {
+          "client_id": "1046081005289-j0rd8f9tt4tkdfi2um1o126nt1a9799h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoieLhWPcI_RUPDybj0ud_j_wAGSByi18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046081005289-j0rd8f9tt4tkdfi2um1o126nt1a9799h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

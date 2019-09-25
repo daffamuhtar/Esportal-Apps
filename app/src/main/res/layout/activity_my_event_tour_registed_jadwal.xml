@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackdoff"
+    tools:context=".MyEventTourRegistedJadwalActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Top 16"
+                        android:textColor="@color/BlueSoft"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:text="10:00 WIB"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t1"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t2"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t3"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t4"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t5"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t6"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t7"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t8"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t9"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t10"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t11"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t12"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t13"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t14"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t15"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_metrj_t16"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_t16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Top 8"
+                        android:textColor="@color/BlueSoft"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:text="10:40 WIB"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="25dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_s1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="60dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_s2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="60dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_s3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="60dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_s4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="60dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_s5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="60dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_s6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="60dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_s7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="60dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_s8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Top 4"
+                        android:textColor="@color/BlueSoft"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:text="11:20 WIB"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="75dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_sf1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="160dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_sf2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="160dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_sf3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="160dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_sf4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Final"
+                        android:textColor="@color/BlueSoft"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:text="12:00 WIB"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="175dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_f1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="175dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_f2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:text="Winner"
+                        android:textColor="@color/BlueSoft"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="275dp"
+                        app:cardBackgroundColor="@color/gray2">
+
+                        <TextView
+                            android:id="@+id/tv_metrj_win"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </ScrollView>
+
+
+</RelativeLayout>

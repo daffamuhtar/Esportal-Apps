@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppThemeBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blackdoff</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="colorBackgroundFloating">@color/gray2</item>-->
+        <!--<item name="android:colorBackgroundFloating" tools:targetApi="23">@color/gray2</item>-->
+        <item name="colorControlHighlight">@color/light</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/gray2</item>
+    </style>
+
+    <style name="AppThemeNoBar" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blackdoff</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <!--<item name="colorBackgroundFloating">@color/gray2</item>-->
+        <!--<item name="android:colorBackgroundFloating" tools:targetApi="23">@color/gray2</item>-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="colorControlHighlight">@android:color/white</item>-->
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+    <style name="buttonstyle1" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/Blue</item>
+        <item name="colorButtonNormal">@color/gray</item>
+    </style>
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="CustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/Blue</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabSelectedTextColor">@color/Blue</item>
+    </style>
+    <style name="TabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="tabMaxWidth">@dimen/tab_max_width</item>
+        <item name="tabIndicatorColor">@color/Blue</item>
+        <item name="tabIndicatorHeight">@dimen/tab_indicator_height</item>
+        <item name="tabPaddingStart">8dp</item>
+        <item name="tabPaddingEnd">8dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/TabTextAppearance</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+    </style>
+
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_tab_size</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="SelectableItemTheme">
+        <item name="android:colorControlHighlight">@color/gray1</item>
+    </style>
+
+    <style name="SelectableItemBackground">
+        <item name="android:theme">@style/SelectableItemTheme</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+
+
+
+</resources>

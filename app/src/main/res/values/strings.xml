@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Esportal</string>
+    <string name="FACEBOOK_APP_ID">343697303245868</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">c0c5d9843329bc08b3c1ca849ec8510f</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="About">About</string>
+    <string name="Jadwal">Jadwal</string>
+    <string name="Hasil">Hasil</string>
+
+    <string name="notification_channel_id">default</string>
+
+</resources>
+

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray2"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Tim"
+                android:textColor="@color/BlueSoft"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/tv_det_namatim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/gray"
+                android:hint="Username" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ketua"
+                android:textColor="@color/BlueSoft"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/tv_det_usrketua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:hint="Username" />
+
+            <EditText
+                android:id="@+id/tv_det_ignketua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:hint="Nickname"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/gray1"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anggota 1"
+                android:textColor="@color/BlueSoft"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tv_det_usrang1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/gray"
+                android:hint="Username" />
+
+            <EditText
+                android:id="@+id/tv_det_ignang1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:hint="Nickname"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/gray1"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anggota 2"
+                android:textColor="@color/BlueSoft"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/tv_det_usrang2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:hint="Username" />
+
+            <EditText
+                android:id="@+id/tv_det_ignang2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:inputType="textEmailAddress"
+                android:hint="Nickname"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/gray1"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anggota 3"
+                android:textColor="@color/BlueSoft"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/tv_det_usrang3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/gray"
+                android:hint="Username" />
+
+            <EditText
+                android:id="@+id/tv_det_ignang3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:hint="Nickname"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/gray1"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anggota 4"
+                android:textColor="@color/BlueSoft"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/tv_det_usrang4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:hint="Username" />
+
+            <EditText
+                android:id="@+id/tv_det_ignang4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:layout_alignParentStart="true"
+                android:hint="Nickname"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/gray1"
+                android:layout_marginBottom="10dp"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/btn_det_cancle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:background="@color/blackdoff"
+                    android:text="Cancle" />
+
+                <Button
+                    android:id="@+id/btn_det_save"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Save" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
